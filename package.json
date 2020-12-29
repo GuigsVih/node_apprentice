@@ -1,0 +1,29 @@
+{
+  "name": "vesmo-node",
+  "version": "1.0.0",
+  "description": "Backend feito em nodejs para uma API de finanças e controle financeiro",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx nodemon --exec ts-node --files src/index.ts",
+    "typeorm": "node --require ts-node/register ./node_modules/typeorm/cli.js"
+  },
+  "author": "Guilherme Vilela Oliveira",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.8",
+    "nodemon": "^2.0.4",
+    "ts-node": "^9.0.0",
+    "typescript": "^3.9.6"
+  },
+  "dependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/jsonwebtoken": "^8.5.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^8.3.3",
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "^0.2.25"
+  }
+}
